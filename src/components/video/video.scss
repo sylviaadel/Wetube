@@ -1,0 +1,38 @@
+.Video {
+    text-decoration: none;
+    width: 320px;
+    position: relative;
+    p{
+        color: #030303;
+        font-weight: 500;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-family: "Roboto-Bold";
+    }
+    label{
+        color: #606060;
+        font-size: 12px;
+    }
+    .tool-tip{
+        display: none;
+        position: absolute;
+        background-color: #030303;
+        top: 145px;
+        height: 30px;
+        padding: 0 10px;
+        line-height: 30px;
+        border-radius: 2px;
+        right: 5px;
+        p{
+            color: #fff;
+            font-size: 12px;
+            margin-top:0;
+            font-family: "Roboto";
+        }
+    }
+    &:hover{
+        .tool-tip{
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.VideosContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 5rem 0 0 6.5rem;
+    flex-wrap: wrap;
+    img{
+        height: fit-content;
+    }
+}

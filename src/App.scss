@@ -1,0 +1,27 @@
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url("./fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: local("Roboto"), url("./fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+.App{
+  background-color: #F9F9F9;
+  min-height: calc(100vh);
+  font-family: "Roboto";
+}
+.Sidebar {
+  &.open{
+    .LinksContainer{
+      img{
+        margin: 9px 20px 0 0
+      }
+    }
+    & + header + .VideosContainer{
+      padding-left: 16.5rem;
+    }
+  }
+}

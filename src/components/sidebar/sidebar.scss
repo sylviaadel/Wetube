@@ -1,0 +1,79 @@
+.Sidebar {
+    height: calc(100vh);
+    width: 74px;
+    float: left;
+    position: fixed;
+    background: #fff;
+    z-index: 1;
+    &.open{
+        .LinksContainer{
+            width: 240px;
+            position: absolute;
+            bottom: 0;
+            top: 57px;
+            background: #fff;
+            a{
+                display: flex;
+                padding: 0 24px;
+                height: 40px;
+                line-height: 40px;
+                svg{
+                    margin: 10px 24px 0 0;
+                }
+                label{
+                    font-size: 14px;
+                    line-height: 42px;
+                }
+                &.active{
+                    label{
+                        font-family: "Roboto-Bold";
+                    }
+                }
+            }
+        }
+    }
+    .MenuBtn{
+        background-color: #fff;
+        border: 0;
+        height: 57px;
+        width: 72px;
+        cursor: pointer;
+        img{
+            width: 18px;
+        }
+    }
+    .LinksContainer{
+        padding-top: 4px;
+        margin-top: -1px;
+        a{
+            text-align: center;
+            padding: 0;
+            display: block;
+            color: #030303;
+            text-decoration: none;
+            cursor: pointer;
+            height: 74px;
+            &.active{
+                background-color: rgba(0,0,0,.1);
+            }
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.05);
+            }
+            &.active:hover{
+                background-color: #d9d9d9;
+            }
+            img{
+                height: 19px;
+                margin: 20px 0 5px 0;
+            }
+            label{
+                font-size: 10px;
+                display: block;
+            }
+        }
+        hr{
+            border-color: rgba(0, 0, 0, 0.1);
+            border-top: 0;
+        }
+    }
+}
