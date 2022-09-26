@@ -4,7 +4,7 @@ An application used to manage and display Wetube videos, built with React, JavaS
 
 ## Project Screen Shot
 
-![image](https://user-images.githubusercontent.com/39488415/192376992-b5e94e2e-f486-41bb-82ef-5583db6e891c.png)
+![image](https://user-images.githubusercontent.com/39488415/192379503-8c1f576e-e606-404f-8a9e-c61e285dd8ff.png)
 
 ## Installation and Setup Instructions
 
